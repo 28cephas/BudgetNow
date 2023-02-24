@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Now</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="budget-title">
+            <h2>Available Budget in 
+                <span class="month">September</span> 
+                <span class="year">2022</span>
+            </h2>
+
+            <h2 class="total-amount">+ 1,200.00</h2>
+
+            <div class="total-income">
+                <p>INCOME</p>
+                <div class="total-income-right">
+                    <p class="total-income-money">+ 1,200.00</p>
+                    <p class="total-income-percent">20%</p>
+                </div>
+            </div>
+
+            <div class="total-expenses">
+                <p>EXPENSES</p>
+                <div class="total-expenses-right">
+                    <p class="total-expenses-money">- 200.00</p>
+                    <p class="total-expenses-percent">20%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <select class="select-type">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+        </select>
+
+        <input type="text" class="description" placeholder="Add description" >
+
+        <input type="number" class="value" placeholder="Value">
+
+        <div class="image">
+            <img src="/checked.png" alt="" class="check">
+        </div>
+    </div>
+
+    <div class="display">
+        <div class="income">
+            <h3>INCOME</h3>
+            <ul>
+                <!-- <li>
+                    <p class="description">What i earned</p>
+                    <p class="amount-spent">+ 1,200 <span class="remove">X</span></p>
+                </li> -->
+            </ul>
+        </div>
+
+        <div class="expenses">
+            <div>
+                <h3>EXPENSES</h3>
+                
+                <ul>
+                    <!-- <li>
+                        <p>What i spent</p>
+                        <p class="expenses-p">
+                            <span class="expenses-percent">- 200</span> 
+                            <span class="percentage">40%</span>
+                        </p>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
